@@ -1,0 +1,59 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 700;
+}
+
+.contents {
+    padding: 0px;
+    margin: 0px;    
+    text-align: center;
+    background: linear-gradient(to right, rgb(255, 0, 255) 0%, yellow 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#dateElem {
+    font-size: 30px;
+}
+
+#timeElem {
+    font-size: 55px;
+}
+
+#clock {
+    padding: 10px 45px;
+    background-color: black;
+}
+
+#container {
+    margin: auto;
+    width: 90vw;
+    height: 97vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-width: 220px;
+}
+#clockBox{
+    background: linear-gradient(to right, rgb(255, 0, 255) 0%, yellow 100%);
+    padding: 3px;
+}
+@media (max-width:400px){
+    #dateElem{
+        font-size:25px;
+    }
+    #timeElem{
+        font-size: 40px;
+    }
+}
+@media (max-width:350px){
+    #dateElem{
+        font-size:20px;
+    }
+    #timeElem{
+        font-size: 30px;
+    }
+}
